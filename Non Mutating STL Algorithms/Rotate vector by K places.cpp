@@ -1,11 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 vector<int> leftRotate(vector<int> &v, int k)
 {
     rotate(v.begin(), v.begin() + k, v.end());
     return v;
 }
+
 
 int main()
 {
